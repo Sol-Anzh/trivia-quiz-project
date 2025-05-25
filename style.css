@@ -9,7 +9,7 @@
 /*-----------------------------------------INDEX PAGE-------------------------------------*/
 
 #index-body{
-    background-image: linear-gradient(to right, rgba(12, 12, 12, 0.281), rgba(255, 253, 253, 0.13)), url("/images/index-bg.png");
+    background-image: linear-gradient(to right, rgba(12, 12, 12, 0.281), rgba(255, 253, 253, 0.13)), url("images/index-bg.png");
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -135,7 +135,7 @@ h3{
 /*--------------------------------SELECT CATEGORY-------------------------------------------*/
 
 #category-body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(66, 37, 21, 0.363)), url("/images/index-bg.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(66, 37, 21, 0.363)), url("images/index-bg.png");
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -215,22 +215,22 @@ p{
 }
 
 .entert{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(66, 37, 21, 0.5)),  url("/images/entert.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(66, 37, 21, 0.5)),  url("images/entert.jpg");
 }
 .general-quiz{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/general.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/general.jpg");
 }
 .geo-quiz{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/geography.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/geography.jpg");
 }
 .history-quiz{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/history.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/history.jpg");
 }
 .science-quiz{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/science.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/science.jpg");
 }
 .sports-quiz{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/sports.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/sports.jpg");
 }
 
 .category-title{
@@ -383,7 +383,7 @@ p{
 /*------------------------------------------------RESULT PAGE---------------------------------------------------*/
 
 #score-body{
-    background-image: linear-gradient(to right, rgba(12, 12, 12, 0.281), rgba(255, 253, 253, 0.13)), url("/images/index-bg.png");
+    background-image: linear-gradient(to right, rgba(12, 12, 12, 0.281), rgba(255, 253, 253, 0.13)), url("images/index-bg.png");
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
