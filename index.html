@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,4 +35,42 @@
      
     
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+</head>
+<body id="index-body">
+    <div id="index-container">
+        <div id="title-container">
+            <h1 id="trivia-title">Trivia Quiz</h1>
+            <h3 id="desc">Test how much you know</h3>
+        </div>
+        <div id="user-input">
+            <input type="text" id="name" placeholder="Enter your name here" required>
+            <br>
+            <button id="start-button">Start Quiz</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById("start-button").addEventListener("click", function () {
+            const username = document.getElementById("name").value.trim();
+            if (username === "") {
+                alert("Please enter your name.");
+            } else {
+                localStorage.setItem("username", username);
+                window.location.href = "category-selection.html";
+            }
+        });
+    </script>
+     
+    
+</body>
+>>>>>>> bdc657afa37dd07ba0c7378403612cc6153abf21
 </html>
