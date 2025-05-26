@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz - Science</title>
+
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script> 
+    </head>
+    <body class="science-quiz category-bg">
+
+        <div class="category-title"><h1>SCIENCE</h1></div>
+       
+        <div class="category-body">
+        
+        <div class="trivia-container">
+            <div class="trivia-result">   </div>
+
+            <div class="trivia-card">
+                <p>1. Which chemical substance that is 
+                    a potent vasoconstrictor and neurotransmitter 
+                    is known as the “happiness hormone” because 
+                    it promotes the feeling of well-being?  </p>
+                <div class="choices-container">
+                    <button class="choices" onclick="checkAnswer(this)">a. calcitonin </button>
+                    <button class="choices" onclick="checkAnswer(this)">b. prostacyclin </button>
+                    <button class="choices" onclick="checkAnswer(this)">c. melatonin </button>
+                    <button class="choices" data-correct="true" onclick="checkAnswer(this)">d. serotonin</button>
+               </div>
+                
+            </div>
+             <div class="bottom-buttons">  
+                    <button class="return" onclick="location.href='/category-selection.html'">Return to Selection</button>
+                    <button class="next-button disabled" onclick="location.href='science-2.html'">Next</button>
+                    
+                </div>
+        </div> 
+        </div>
+
+        
+</body>
+</html>

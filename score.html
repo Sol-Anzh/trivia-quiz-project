@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+</head>
+
+<body id="score-body">
+    <h2>Quiz Complete!</h2>
+
+    <div id="score-result">
+        <div id="congrats">
+            <h3 id="final-score"></h3>
+        <a href="index.html" id="restart" "restartQuiz()">Play Again</a>
+        </div>
+    </div>
+
+    <script>
+        const score = localStorage.getItem("score") || 0;
+        const username = localStorage.getItem("username") || "Player";
+        
+        document.getElementById("final-score").innerHTML = `Congrats, ${username}! <br> Your score: ${score}`;
+
+        function restartQuiz() {
+            localStorage.removeItem("score");
+            window.location.href = "index.html"; 
+        }
+
+    </script>
+</body>
+</html>

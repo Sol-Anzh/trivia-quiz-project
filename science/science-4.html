@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz - Science</title>
+
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script> 
+    </head>
+    <body class="science-quiz category-bg">
+
+        <div class="category-title"><h1>SCIENCE</h1></div>
+       
+        <div class="category-body">
+        
+        <div class="trivia-container">
+            <div class="trivia-result">   </div>
+
+            <div class="trivia-card">
+                <p>4. What element is also known as hydrargyrum, 
+                    which is a combination of Latin words that 
+                    mean “water” and “silver”? </p>
+                <div class="choices-container">
+                    <button class="choices" onclick="checkAnswer(this)">a. potassium</button>
+                    <button class="choices" data-correct="true" onclick="checkAnswer(this)">b. mercury </button>
+                    <button class="choices" onclick="checkAnswer(this)">c. hydrogen </button>
+                    <button class="choices" onclick="checkAnswer(this)">d. platinum</button>
+               </div>
+                
+            </div>
+             <div class="bottom-buttons">  
+                    <button class="return" onclick="location.href='/category-selection.html'">Return to Selection</button>
+                    <button class="next-button disabled" onclick="location.href='science-5.html'">Next</button>
+                    
+                </div>
+        </div> 
+        </div>
+
+        
+</body>
+</html>
