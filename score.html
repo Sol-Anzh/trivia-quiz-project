@@ -25,8 +25,10 @@
         
         document.getElementById("final-score").innerHTML = `Congrats, ${username}! <br> Your score: ${score}`;
 
+        localStorage.setItem("score", 0);
+
         function restartQuiz() {
-            localStorage.removeItem("score");
+
             window.location.href = "index.html"; 
         }
 
