@@ -82,17 +82,3 @@ function checkAnswer(clickedBtn) {
         nextButton.style.opacity = "1";
     }
 }
-
-//------------------------------------ RESULT PAGE -------------------------//
-
-document.addEventListener("DOMContentLoaded", function () {
-    const resultText = document.getElementById("final-score");
-    const name = localStorage.getItem("username") || "Player";
-    const score = localStorage.getItem("score") || 0;
-
-    if (resultText) {
-        resultText.textContent = `${name}, your final score is: ${score}`;
-        // Reset score after displaying it
-        localStorage.setItem("score", 0);
-    }
-});

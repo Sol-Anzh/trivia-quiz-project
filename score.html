@@ -6,7 +6,7 @@
     <title>Trivia Quiz</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script> 
+    <script src="script.js" defer></script> 
 </head>
 
 <body id="score-body">
@@ -15,7 +15,7 @@
     <div id="score-result">
         <div id="congrats">
             <h3 id="final-score"></h3>
-        <a href="index.html" id="restart" "restartQuiz()">Play Again</a>
+        <a href="index.html" id="restart" onclick="restartQuiz()">Play Again</a>
         </div>
     </div>
 
@@ -25,10 +25,8 @@
         
         document.getElementById("final-score").innerHTML = `Congrats, ${username}! <br> Your score: ${score}`;
 
-        localStorage.setItem("score", 0);
-
         function restartQuiz() {
-
+            localStorage.removeItem("score");
             window.location.href = "index.html"; 
         }
 
