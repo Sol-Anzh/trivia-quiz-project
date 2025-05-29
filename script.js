@@ -1,14 +1,14 @@
 document.getElementById("start-button").addEventListener("click", function () {
-            const username = document.getElementById("name").value.trim();
-            if (username === "") {
-                alert("Please enter your name.");
-            } else {
-                // Save to localStorage
-                localStorage.setItem("username", username);
-                // Go to next page
-                window.location.href = "category-selection.html";
-            }
-        });
+    const username = document.getElementById("name").value.trim();
+    if (username === "") {
+        alert("Please enter your name.");
+    } else {
+        // Save to localStorage
+        localStorage.setItem("username", username);
+        // Go to next page
+        window.location.href = "category-selection.html";
+    }
+});
 
 //------------------------------------ QUIZ PAGE -------------------------//
 
@@ -54,7 +54,7 @@ function checkAnswer(clickedBtn) {
         let score = parseInt(localStorage.getItem("score")) || 0;
         score += 1;
         localStorage.setItem("score", score);
-        
+
     } else {
         clickedBtn.style.borderColor = "red";
         resultDiv.textContent = "Incorrect";
@@ -83,4 +83,16 @@ function checkAnswer(clickedBtn) {
     }
 }
 
+//------------------------------------ RESULT PAGE -------------------------//
 
+document.addEventListener("DOMContentLoaded", function () {
+    const resultText = document.getElementById("final-score");
+    const name = localStorage.getItem("username") || "Player";
+    const score = localStorage.getItem("score") || 0;
+
+    if (resultText) {
+        resultText.textContent = `${name}, your final score is: ${score}`;
+        // Reset score after displaying it
+        localStorage.setItem("score", 0);
+    }
+});
