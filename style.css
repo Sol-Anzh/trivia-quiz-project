@@ -215,7 +215,7 @@ p{
 }
 
 .entert{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(66, 37, 21, 0.5)),  url(./"entert.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(66, 37, 21, 0.5)),  url("./entert.jpg");
 }
 .general-quiz{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./general.jpg");
