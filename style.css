@@ -477,7 +477,8 @@ h3{
 
 .category-title h1{
     font-size: 5rem;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
     border: solid 3px;
 }
 
