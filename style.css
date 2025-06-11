@@ -492,6 +492,7 @@ h3{
     margin-top: 0;
     width: 90%;  
     border: solid 3px;
+    gap: 0;
 }
 
 .trivia-result{
