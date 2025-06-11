@@ -520,8 +520,13 @@ h3{
 }
 
 .trivia-container{
-    padding: 0;
+    padding: 1rem;
     height: 90%
+    width: 100%;
+}
+
+.category-body, .trivia-container, .trivia-card {
+    box-sizing: border-box;
 }
 
 .trivia-container .trivia-card{
