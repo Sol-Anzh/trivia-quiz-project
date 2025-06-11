@@ -525,13 +525,10 @@ h3{
     width: 100%;
 }
 
-.category-body, .trivia-container, .trivia-card {
-    box-sizing: border-box;
-}
 
 .trivia-container .trivia-card{
-    width: 90%;
-    padding: 2rem;
+    width: 100%;
+    padding: 1rem;
     font-size: 2rem;
 }
     
