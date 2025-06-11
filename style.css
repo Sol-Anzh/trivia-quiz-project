@@ -473,6 +473,14 @@ h3{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    }
+}
 
+.trivia-container{
+    width: 90%;    
+}
+
+.trivia-result{
+    font-size: 2rem;
+}
+    
 }
