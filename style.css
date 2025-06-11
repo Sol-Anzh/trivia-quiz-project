@@ -493,7 +493,7 @@ h3{
     margin: 0;
     padding: 0;
     border: solid 3px;
-    
+    margin-left: 0;
 }
 
 .category-bg{
@@ -527,10 +527,6 @@ h3{
 .trivia-container .trivia-card{
     width: 90%;
     padding: 2rem;
-    font-size: 2rem;
-}
-
-.return, .next-button{
     font-size: 2rem;
 }
     
