@@ -533,11 +533,11 @@ h3{
     font-size: 2rem;
     height: 65%;
     width: 95%;
-    min-width: 500px;
+    min-width: 350px;
 }
 
 .bottom-buttons{
-    min-width: 8rem;
+    min-width: 350px;
 }
 
 .choices-container{
