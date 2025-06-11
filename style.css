@@ -475,7 +475,12 @@ h3{
     background-position: center;
 }
 
+.category-title h1{
+    font-size: 5rem;
+}
+
 .category-body{
+    flex-direction: row;
     width: 90%;  
     border: solid 3px;
 }
