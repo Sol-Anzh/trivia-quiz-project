@@ -137,11 +137,13 @@ h3{
 /*--------------------------------SELECT CATEGORY-------------------------------------------*/
 
 #category-body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(66, 37, 21, 0.363)), url("./index-bg.png");
-    background-size: 100%;
+    background-size: cover;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     max-width: 100%;
+    margin: 0;
     margin: 0;
     padding: 0;
 }
@@ -233,6 +235,16 @@ p{
 }
 .sports-quiz{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./sports.jpg");
+}
+
+.category-bg{
+    background-size: cover;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    margin: 0;
 }
 
 .category-title{
