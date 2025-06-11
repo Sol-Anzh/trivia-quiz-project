@@ -480,7 +480,7 @@ h3{
 }
 
 .category-body{
-    flex-direction: row;
+    flex-direction: column;
     width: 70vw;  
     border: solid 3px;
 }
