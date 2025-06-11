@@ -476,7 +476,8 @@ h3{
 }
 
 .category-body{
-    width: 90%;    
+    width: 90%;  
+    border: solid 3px;
 }
 
 .trivia-result{
