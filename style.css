@@ -479,8 +479,11 @@ h3{
     font-size: 5rem;
 }
 
+.category-bg{
+    display:grid;
+}
+        
 .category-body{
-    flex-direction: column;
     width: 70vw;  
     border: solid 3px;
 }
