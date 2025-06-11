@@ -516,6 +516,7 @@ h3{
 .trivia-result{
     font-size: 2rem;
     width: 100%;
+    margin-bottom: 0.3rem;
 }
 
 .trivia-container{
