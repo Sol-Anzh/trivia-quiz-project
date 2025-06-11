@@ -529,17 +529,18 @@ h3{
     padding: 1rem;
     margin: 0.5rem;
     font-size: 2rem;
-    height: 90%;
+    height: 75%;
+    width: 95%;
     max-width: 500px;
 }
 
 .bottom-buttons{
-    width: 100%;
-    border: solid 2px;
+    width: 300px;
 }
 
 .choices-container{
     height: 70%;
+    width: 80%;
 }
     
 }
