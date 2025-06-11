@@ -447,135 +447,30 @@ p{
 
 /*----------------------- MEDIA QUERIES FOR RESPONSIVENESS --------------------------*/
 
-/* Extra small devices */
-@media (max-width: 575.98px) {
-    h1 {
-        font-size: 3rem;
-    }
+@media (max-width: 800px){
 
-    h2 {
-        font-size: 6vw;
-        padding-left: 1rem;
-    }
-
-    .trivia-container {
-        width: 90vw;
-    }
-
-    .trivia-container .trivia-card {
-        width: 90%;
-        padding: 1rem;
-    }
-
-    .trivia-container .trivia-card .choices {
-        width: 90%;
-        font-size: 4vw;
-        height: auto;
-    }
-
-    .trivia-result {
-        width: 90%;
-        font-size: 5vw;
-        padding: 0.8rem;
-    }
-
-    .bottom-buttons {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .next-button, .return {
-        width: 80%;
-        font-size: 4.5vw;
-    }
-
-    #select-category h1 {
-        font-size: 3rem;
-    }
-
-    #categories {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        height: auto;
-    }
-
-    .category {
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-
-    #congrats h3 {
-        font-size: 2rem;
-        padding-left: 0;
-    }
-
-    #restart {
-        font-size: 1.2rem;
-    }
+h1{
+    font-size: 4rem;
 }
 
-
-/* Small to medium devices  */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    h1 {
-        font-size: 4rem;
-    }
-
-    .trivia-container {
-        width: 85vw;
-    }
-
-    .trivia-container .trivia-card {
-        width: 90%;
-        padding: 1.5rem;
-    }
-
-    .trivia-container .trivia-card .choices {
-        font-size: 3vw;
-    }
-
-    .trivia-result {
-        width: 85%;
-        font-size: 3.5vw;
-    }
-
-    .next-button, .return {
-        font-size: 2.5vw;
-    }
-
-    #categories {
-        grid-template-columns: repeat(2, 1fr);
-    }
+h3{
+    font-size: 1rem;
 }
 
-
-/* Medium to large devices */
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .trivia-container {
-        width: 80vw;
-    }
-
-    .trivia-container .trivia-card {
-        width: 85%;
-        padding: 2rem;
-    }
-
-    .trivia-container .trivia-card .choices {
-        font-size: 2.5vw;
-    }
-
-    .trivia-result {
-        width: 80%;
-        font-size: 2.5vw;
-    }
-
-    .next-button, .return {
-        font-size: 2vw;
-    }
+#select-category h1{
+    font-size: 3.5rem;
 }
 
+#categories {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    height: 55vh;
+}
 
-/* Large devices*/
-@media (min-width: 992px) {
+#index-body, #category-body, .entert, .general-quiz, .geo-quiz, .history-quiz, .science-quiz, .sports-quiz, #score-body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+
 }
