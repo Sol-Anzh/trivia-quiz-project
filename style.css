@@ -523,7 +523,7 @@ h3{
     padding: 1rem 0.3rem;
     height: 90%;
     width: 90%;
-    min-width: 550px;
+    min-width: 400px;
 }
 
 .trivia-container .trivia-card{
@@ -534,7 +534,6 @@ h3{
     height: 65%;
     width: 95%;
     min-width: 500px;
-    font-size: 1.2rem;
 }
 
 .bottom-buttons{
