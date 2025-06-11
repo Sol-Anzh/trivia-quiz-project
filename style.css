@@ -533,7 +533,16 @@ h3{
     font-size: 2rem;
     height: 65%;
     width: 95%;
-    min-width: 350px;
+    min-width: 345px;
+}
+
+.trivia-card p{
+    font-size: 1.3rem;
+    margin: 0.8rem 1rem;
+}
+
+.choices{
+    font-size: 1.3rem;
 }
 
 .bottom-buttons{
