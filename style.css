@@ -512,6 +512,7 @@ h3{
     flex-direction: column;
     justify-contents: center;
     align-items: center;
+    border: solid white 1px;
 }
 
 .trivia-result{
@@ -522,6 +523,7 @@ h3{
 .trivia-container{
     padding: 1rem;
     height: 90%
+    border: solid red 1px;
 }
 
 .trivia-container .trivia-card{
