@@ -476,7 +476,7 @@ h3{
 }
 
 .category-title h1{
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0;
     padding: 0;
     border: solid 3px;
@@ -485,7 +485,8 @@ h3{
 .category-bg{
     display: flex;
     flex-direction: column;
-   
+    justify-contents: center;
+    align-items: center;
 }
         
 .category-body{
@@ -500,7 +501,7 @@ h3{
 }
 
 .trivia-container .trivia-card{
-    width: 90%;
+    width: 100%;
 }
     
     
