@@ -475,6 +475,11 @@ h3{
     background-position: center;
 }
 
+ .category-title{
+     display: flex;
+     flex-direction: start;
+ }   
+
 .category-title h1{
     font-size: 4rem;
     margin: 0;
