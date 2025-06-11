@@ -514,7 +514,13 @@ h3{
 .trivia-container .trivia-card{
     width: 90%;
     padding: 2rem;
+    font-size: 2rem;
 }
+
+.return, .next-button{
+    font-size: 2rem;
+}
+    
     
     
 }
