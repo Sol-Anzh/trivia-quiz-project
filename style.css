@@ -484,7 +484,7 @@ h3{
 
  .category-title{
      display: flex;
-     flex-direction: start;
+     flex-direction: end;
      margin-left: 0;
  }   
 
