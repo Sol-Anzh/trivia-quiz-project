@@ -502,6 +502,7 @@ h3{
     justify-contents: left;
     align-items: center;
     gap: 0;
+    box-sizing: border-box;
 }
         
 .category-body{
@@ -512,7 +513,6 @@ h3{
     flex-direction: column;
     justify-contents: center;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .trivia-result{
