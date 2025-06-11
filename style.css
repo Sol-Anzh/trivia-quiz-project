@@ -526,10 +526,10 @@ h3{
 
 .trivia-container .trivia-card{
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0.5rem;
     font-size: 2rem;
-    height: 100%;
+    height: 90%;
     max-width: 500px;
 }
 
