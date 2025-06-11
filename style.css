@@ -498,5 +498,10 @@ h3{
 .trivia-result{
     font-size: 2rem;
 }
+
+.trivia-container .trivia-card{
+    width: 90%;
+}
+    
     
 }
