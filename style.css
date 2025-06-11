@@ -535,6 +535,7 @@ h3{
 
 .bottom-buttons{
     width: 100%;
+    border: solid 2px;
 }
 
 .choices-container{
