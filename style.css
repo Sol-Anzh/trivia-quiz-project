@@ -492,7 +492,7 @@ h3{
 .category-bg{
     display: flex;
     flex-direction: column;
-    justify-contents: center;
+    justify-contents: left;
     align-items: center;
     gap: 0;
 }
@@ -509,7 +509,6 @@ h3{
 
 .trivia-result{
     font-size: 2rem;
-    margin-top: 0;
 }
 
 .trivia-container{
