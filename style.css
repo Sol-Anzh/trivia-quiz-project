@@ -468,6 +468,7 @@ h3{
 }
 
 #index-body, #category-body, .entert, .general-quiz, .geo-quiz, .history-quiz, .science-quiz, .sports-quiz, #score-body{
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
