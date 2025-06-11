@@ -478,6 +478,7 @@ h3{
  .category-title{
      display: flex;
      flex-direction: start;
+     margin-left: 0;
  }   
 
 .category-title h1{
@@ -485,7 +486,7 @@ h3{
     margin: 0;
     padding: 0;
     border: solid 3px;
-    flex-direction: start;
+    
 }
 
 .category-bg{
@@ -512,6 +513,7 @@ h3{
 
 .trivia-container .trivia-card{
     width: 100%;
+    padding: 2rem;
 }
     
     
