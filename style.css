@@ -549,9 +549,14 @@ h3{
     min-width: 350px;
 }
 
+#entert-title{
+    font-size: 3rem;
+}
+    
 .choices-container{
-    height: 70%;
+    height: 65%;
     width: 80%;
+    font-size: 1rem;
 }
     
 }
