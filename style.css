@@ -511,6 +511,7 @@ h3{
     flex-direction: column;
     justify-contents: center;
     align-items: center;
+    border: solid 2px;
 }
 
 .trivia-result{
