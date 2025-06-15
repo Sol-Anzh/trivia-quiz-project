@@ -162,7 +162,7 @@ h3{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(2, 1fr); 
-    justify-items: center;
+    justify-content: center;
     height: 45vh;
     width: 99.8%;
     margin-top: 3rem;
@@ -466,7 +466,7 @@ p{
 @media (min-width: 576px) and (max-width: 767.98px) {
 
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h3{
