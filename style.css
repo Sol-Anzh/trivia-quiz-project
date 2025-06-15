@@ -137,7 +137,7 @@ h3{
 /*--------------------------------SELECT CATEGORY-------------------------------------------*/
 
 #category-body{
-    background-image: linear-gradient(to right, rgba(12, 12, 12, 0.281), rgba(255, 253, 253, 0.13)), url("./index-bg.png");
+    background-image: url("./index-bg.png");
     background-size: cover;
     background-position-y: 100%;
     background-repeat: no-repeat;
