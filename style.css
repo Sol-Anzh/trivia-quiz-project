@@ -163,7 +163,7 @@ h3{
     grid-template-rows: repeat(2, 1fr); 
     justify-items: center;
     height: 45vh;
-    width: 99.9%;
+    width: 99.8%;
     margin-top: 3rem;
     gap: 0.5rem 0;
     box-sizing: border-box;
