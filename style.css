@@ -497,18 +497,17 @@ h3{
      margin-left: 0;
  }   
 
+.category-bg{
+    display: grid;
+    grid-template-rows: repeat(2, 10% 90%);
+    align-items: center;
+    gap: 0;
+}
+    
 .category-title h1{
     font-size: 4rem;
     margin: 0;
     padding: 0;
-}
-
-.category-bg{
-    display: flex;
-    flex-direction: column;
-    justify-contents: center;
-    align-items: center;
-    gap: 0;
 }
         
 .category-body{
