@@ -326,6 +326,10 @@ p{
     font-size: 2rem;
 }
 
+.paragraph{
+    height: 30%;
+}
+
 .trivia-container .trivia-card .choices-container{
     display: flex;
     flex-direction: column;
