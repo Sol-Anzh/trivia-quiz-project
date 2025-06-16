@@ -491,8 +491,11 @@ h3{
     height: 55vh;
 }
 
-
-
+ .category-title{
+     display: flex;
+     flex-direction: start;
+     margin-left: 0;
+ }   
 
 .category-title h1{
     font-size: 4rem;
@@ -517,13 +520,14 @@ h3{
     flex-direction: column;
     justify-contents: center;
     align-items: center;
-    border: solid 2px;
 }
 
 .trivia-result{
     font-size: 2rem;
     width: 100%;
     margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    min-width: 400px;
 }
 
 .trivia-container{
@@ -543,9 +547,14 @@ h3{
     min-width: 345px;
 }
 
-.trivia-card p{
+.paragraph{
+    height: 30%;
     font-size: 0.9rem;
     margin: 0.8rem 1rem;
+}
+
+.choices-container{
+    height: 70%;
 }
 
 .choices{
