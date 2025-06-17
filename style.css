@@ -545,16 +545,19 @@ h3{
     height: 65%;
     width: 95%;
     min-width: 345px;
+    gap: 0;
 }
 
 .paragraph{
     height: 30%;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     margin: 0.8rem 1rem;
+    flex-shrink: 1;
 }
 
 .choices-container{
     height: 70%;
+    flex-shrink: 1;
 }
 
 .choices{
