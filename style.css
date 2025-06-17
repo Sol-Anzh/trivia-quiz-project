@@ -284,8 +284,10 @@ p{
     flex-direction: column;
     align-items:center;
     margin: 0 0.3rem;
-    padding: 0.1rem;
-    width: 60%;
+    padding: 1rem;
+    width: 90%;
+    height: 70vh;
+    max-width: 800px;
     margin-top: 0.3rem;
     justify-content: center;
     overflow: hidden;
@@ -313,52 +315,60 @@ p{
 .trivia-container .trivia-card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.6);
     padding: 3rem 1rem;
     margin: 0;
     /*height: 40vh;*/
-    width: 70%;
+    width: 100%;
     border: var(--red) solid 0.8px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.842);
-    overflow-y: auto;
     font-size: 2rem;
     box-sizing: border-box;
 }
 
 .paragraph{
-    width: 100%;
-    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.5rem;
     
 }
 
-.trivia-container .trivia-card .choices-container{
+.choices-container{
+    flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     padding: 0;
     margin: 0;
+    gap: 0.5rem;
     box-sizing: border-box;
 }   
 
-.trivia-container .trivia-card .choices{
+.choices{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.7rem;
+    padding: 0.7rem 1rem;
     margin: 0.3rem;
-    width: 75%;
+    width: 80%;
+    max-width: 400px;
     height: auto;
     background-color: var(--red);
     cursor: pointer;
     border: #FF5D58 solid 2px;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1rem
+    text-align: center;
 }
 
 .trivia-container .trivia-card .choices:hover{
