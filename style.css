@@ -276,6 +276,7 @@ p{
     height:98vh;
     right:1rem;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .trivia-container{
