@@ -288,6 +288,7 @@ p{
     margin-top: 0.3rem;
     justify-content: center;
     overflow: hidden;
+    gap: 0.1rem;
 }
 
 .trivia-result{
