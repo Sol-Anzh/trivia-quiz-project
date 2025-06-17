@@ -469,7 +469,7 @@ p{
 }
 
 
-/*----------------------- MEDIA QUERIES FOR RESPONSIVENESS --------------------------*/
+/*----------------------- MEDIA QUERIES --------------------------*/
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -499,7 +499,7 @@ h3{
 
 .category-bg{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 3fr 1fr;
     align-items: center;
     gap: 0;
 }
