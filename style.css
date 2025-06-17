@@ -290,6 +290,7 @@ p{
     justify-content: center;
     overflow: hidden;
     gap: 0.1rem;
+    box-sizing: border-box;
 }
 
 .trivia-result{
@@ -315,8 +316,6 @@ p{
     justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.6);
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
     padding: 3rem 1rem;
     margin: 0;
     height: 40vh;
@@ -324,12 +323,15 @@ p{
     border: var(--red) solid 0.8px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.842);
-    overflow: visible;
+    overflow-y: auto;
     font-size: 2rem;
+    box-sizing: border-box;
 }
 
 .paragraph{
     height: 30%;
+    box-sizing: border-box;
+    margin-bottom: 0;
 }
 
 .trivia-container .trivia-card .choices-container{
@@ -340,6 +342,7 @@ p{
     width: 75%;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }   
 
 .trivia-container .trivia-card .choices{
@@ -347,10 +350,10 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
+    padding: 0.7rem;
     margin: 0.3rem;
     width: 75%;
-    height: height;
+    height: auto;
     background-color: var(--red);
     cursor: pointer;
     border: #FF5D58 solid 2px;
