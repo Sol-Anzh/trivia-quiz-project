@@ -255,6 +255,7 @@ p{
 
 .category-title{
     display: flex;
+    flex-shrink: 2;
     width: 10%;
 }
 
