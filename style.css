@@ -275,10 +275,9 @@ p{
     flex-direction: row-reverse;
     justify-content: center;
     margin: 0;
-    height:98vh;
+    height:95.3vh;
     right:1rem;
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 .trivia-container{
@@ -286,15 +285,11 @@ p{
     flex-direction: column;
     align-items:center;
     margin: 0 0.3rem;
-    padding: 1rem;
-    width: 90%;
-    height: 75vh;
-    max-width: 800px;
+    padding: 0.3rem;
+    width: 60vw;
     margin-top: 0.3rem;
-    justify-content: space-between;
+    justify-content: center;
     overflow: hidden;
-    gap: 0.5rem;
-    box-sizing: border-box;
 }
 
 .trivia-result{
@@ -304,8 +299,8 @@ p{
     padding: 3rem;
     margin: 0.3rem;
     padding: 0;
-    width: 100%;
-    height: 11%;
+    width: 75%;
+    height: 10%;
     background-color: var(--red);
     border-radius: 5px;
     overflow: hidden;
@@ -314,80 +309,68 @@ p{
     font-weight: bold;
     font-size: 2vw;
 }
-.trivia-card{
-    flex-grow: 1;
+.trivia-container .trivia-card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.6);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
     padding: 3rem 1rem;
     margin: 0;
-    height: 78%;
-    width: 100%;
+    height: 58%;
+    width: 70%;
     border: var(--red) solid 0.8px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.842);
+    overflow: visible;
     font-size: 2rem;
-    box-sizing: border-box;
 }
 
-.paragraph{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 1rem;
-    padding: 0.5rem;
-    height: 30%;
-}
-
-.choices-container{
-    flex: 2;
+.trivia-container .trivia-card .choices-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 70%;
+    width: 75%;
     padding: 0;
     margin: 0;
-    gap: 0.5rem;
 }   
 
-.choices{
-    text-align: center;
-    padding: 0.7rem 1rem;
+.trivia-container .trivia-card .choices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
     margin: 0.3rem;
-    width: 90%;
-    max-width: 400px;
-    height: auto;
+    width: 75%;
+    height: 11vh;
     background-color: var(--red);
     cursor: pointer;
     border: #FF5D58 solid 2px;
     color: white;
-    font-size: 1rem;
-    text-align: center;
+    font-size: 1.4vw;
 }
 
-.choices:hover{
+.trivia-container .trivia-card .choices:hover{
     background-color: lightyellow;
     color: var(--red);
     transition: 0.3s ease;
     border: var(--orange) solid 2px;
 }
 
-.bottom-buttons{
+.trivia-container .bottom-buttons{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 0.3rem;
-    width: 100%;
-    height: 11%;
+    width: 70%;
+    height: 2rem;
 }   
 
-.next-button, .return{
-    flex: 1;
+.trivia-container .next-button, .return{
     background-color: var(--lightyellow);
     padding: 0.6rem 1rem;
     width: 50%;
@@ -395,10 +378,11 @@ p{
     border: var(--red) solid 0.1px;
     color: var(--red);
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.4vw;
 }
 
 .trivia-container .next-button:hover, .return:hover{
