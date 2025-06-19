@@ -717,6 +717,10 @@ p{
     padding: 1rem;
     margin: 3rem;
     height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #congrats h3{
