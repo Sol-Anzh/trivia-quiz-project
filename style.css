@@ -618,12 +618,14 @@ p{
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    padding-top: 0.5rem;
+    padding-top: 0;
     margin: 0;
     width: 100%;
     max-width: 90vw;
     min-height: 100vh;
     box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 5px;
 }
 
 #title-container {
