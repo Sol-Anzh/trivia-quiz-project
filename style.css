@@ -596,8 +596,8 @@ p{
 
 @media (max-width: 576px){
 
-h1{
-    font-size: 2.3rem;
+h1, h2{
+    font-size: 2.8rem;
 }
 
 h3{
@@ -704,4 +704,26 @@ p{
 .choices{
     font-size: 1.8vh;
 }
+
+#score-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#score-result{
+    padding: 1rem;
+    margin: 3rem;
+    height: 7rem;
+}
+
+#congrats h3{
+    font-size: 1.7rem;
+}
+
+#restart{
+    font-size: 1rem;
+}
+    
 }
