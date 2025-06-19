@@ -618,7 +618,7 @@ p{
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     margin: 0;
     width: 100%;
     max-width: 90vw;
@@ -638,13 +638,12 @@ p{
   margin: 0.5rem 0 2rem;
 }
 
-
 #user-input {
   width: 100%;
   max-width: 300px;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.3rem;
   padding: 1rem 0;
 }
 
