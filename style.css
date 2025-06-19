@@ -618,6 +618,7 @@ p{
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    padding-top: 1rem;
     margin: 0;
     width: 100%;
     max-width: 90vw;
@@ -625,7 +626,7 @@ p{
 }
 
 #title-container {
-  margin: 0; auto
+  margin: 0 auto;
   padding: 0;
   width: 100%;
   text-align: center;
