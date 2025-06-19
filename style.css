@@ -488,9 +488,8 @@ p{
 }
 
  .category-title{
-     display: flex;
-     flex-direction: start;
-     margin-left: 0;
+     padding: 0;
+     margin: 0;
  }   
 
 .category-bg{
