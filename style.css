@@ -258,7 +258,8 @@ p{
     max-width: 90%;
     overflow-wrap: break-word;
     padding: 0;
-    margin: 0;
+    margin: -4;
+    z-index: -1;
 }
 
 .category-title h1{
@@ -267,7 +268,6 @@ p{
     text-align: center;
     font-size: 7vw;
     color: rgba(255, 255, 255, 0.774);
-    margin: -4;
     padding: 0.3rem;
 }
 
@@ -481,6 +481,10 @@ h3{
     font-size: 1rem;
 }
 
+p{
+    font-size: 1.5vh;
+}
+
 #select-category h1{
     font-size: 3.5rem;
 }
@@ -566,7 +570,7 @@ h3{
 }
 
 .choices{
-    font-size: 1vh;
+    font-size: 2vh;
 }
     
 }
