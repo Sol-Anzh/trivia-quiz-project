@@ -597,19 +597,19 @@ p{
 @media (max-width: 576px){
 
 h1{
-    font-size: 1.5rem;
+    font-size: 2.3rem;
 }
 
 h3{
-    font-size: 0.5rem;
+    font-size: 1.3rem;
 }
 
 p{
-    font-size: 1.1vh;
+    font-size: 1.8vh;
 }
 
 #select-category h1{
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 #categories {
@@ -618,7 +618,9 @@ p{
     height: 55vh;
 }
 
-
+.category{
+    font-size: 1.5rem;
+}
 
 .category-bg{
     display: flex;
@@ -631,7 +633,7 @@ p{
 
 .category-title{
     width: fit-content;
-    max-width: 90%;
+    max-width: 100%;
     overflow-wrap: break-word;
     padding: 0;
     margin: 0;
@@ -664,7 +666,7 @@ p{
 }
     
 .trivia-result{
-    font-size: 1rem;
+    font-size: 1.3rem;
     width: 100%;
     margin-bottom: 0.1rem;
     margin-top: 0.1rem;
@@ -675,7 +677,7 @@ p{
     width: 100%;
     padding: 0.3rem 0.5rem;
     margin: 0.1rem;
-    font-size: 2vw;
+    font-size: 3.2vw;
     height: 65%;
     width: 95%;
     min-width: 170px;
@@ -691,6 +693,7 @@ p{
 
 .bottom-buttons{
     min-width: 170px;
+    font-size: 1.7vw;
 }
     
 .choices-container{
