@@ -208,7 +208,7 @@ h3{
 
 p{
     margin-top: 0.3rem;
-    font-size: 1.30vh;
+    font-size: 3vh;
     text-align: center;
     margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -250,6 +250,7 @@ p{
     background-position: center;
     max-width: 100%;
     margin: 0;
+    gap: 0;
 }
 
 .category-title{
@@ -335,6 +336,7 @@ p{
     width: 75%;
     padding: 0;
     margin: 0;
+    gap: 0.4rem;
 }   
 
 .choices{
