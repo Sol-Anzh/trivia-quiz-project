@@ -520,8 +520,9 @@ h3{
 }
 
 .trivia-container{
-    padding: 1rem 0.3rem;
+    padding: 1rem 0.5rem;
     width: 90%;
+    height: 95vh;
     max-width: 600px;
 }
     
