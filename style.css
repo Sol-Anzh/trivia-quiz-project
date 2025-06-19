@@ -208,7 +208,7 @@ h3{
 
 p{
     margin-top: 0.3rem;
-    font-size: 3vh;
+    font-size: 2vh;
     text-align: center;
     margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -266,9 +266,10 @@ p{
 
 .category-body{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: flex-end;
     margin: 0;
+    padding: 0;
     height:95vh;
     right:1rem;
     overflow: hidden;
@@ -279,6 +280,7 @@ p{
     flex-direction: column;
     align-items:center;
     padding: 0.3rem;
+    margin: 0;
     width: 60vw;
     min-width: 400px;
     margin-top: 0;
