@@ -518,7 +518,7 @@ p{
 }
 
 .category-title h1{
-    font-size: 7vh;
+    font-size: 8vh;
     margin: 0;
     padding: 0;
 }
@@ -526,7 +526,6 @@ p{
 .category-body{
     margin-top: -2rem;
     margin-bottom: 0;
-    margin-left: 2rem;
     width: 100%;
     height: 95vh;
     padding: 0.3rem;
