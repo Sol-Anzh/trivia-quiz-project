@@ -242,6 +242,8 @@ p{
     max-width: 100%;
     margin: 0;
     display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 0;
 }
 
 .category-title{
