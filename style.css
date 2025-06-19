@@ -656,13 +656,13 @@ p{
 }
 
 #start-button {
-  padding: 0.8rem;
+  padding: 1.3rem;
   background-color: orange;
   border: solid white 1.5px;
   box-shadow: inset 0px -5px 2px 0px #e9900a;
   color: white;
   font-size: 1rem;
-  width: 100%;
+  width: 80%;
 }
 
 
