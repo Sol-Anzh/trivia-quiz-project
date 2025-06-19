@@ -214,15 +214,6 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.category-bg{
-    background-size: 100%;
-    background-attachment:fixed;
-    background-position: center;
-    max-width: 100%;
-    display: grid;
-    gap: 0;
-}
-
 .entert{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(66, 37, 21, 0.5)),  url("./entert.jpg");
 }
@@ -250,7 +241,10 @@ p{
     background-position: center;
     max-width: 100%;
     margin: 0;
-    gap: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .category-title{
@@ -268,12 +262,13 @@ p{
     font-size: 7vw;
     color: rgba(255, 255, 255, 0.774);
     padding: 0;
+    margin: 0;
 }
 
 .category-body{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: flex-end;
     margin: 0;
     height:95vh;
     right:1rem;
@@ -284,11 +279,10 @@ p{
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin: 0 0.3rem;
     padding: 0.3rem;
     width: 60vw;
     min-width: 400px;
-    margin-top: 0.3rem;
+    margin-top: 0;
     justify-content: center;
     overflow: hidden;
 }
