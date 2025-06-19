@@ -269,6 +269,7 @@ p{
     flex-direction: row;
     justify-content: flex-end;
     margin: -3rem;
+    margin-bottom: 0;
     padding: 0;
     height:90vh;
     right: 1rem;
@@ -505,7 +506,15 @@ p{
     min-height: 100vh;
     gap: 0;
 }
-    
+
+.category-title{
+    width: fit-content;
+    max-width: 85%;
+    overflow-wrap: break-word;
+    padding: 0;
+    margin: 0;
+}
+
 .category-title h1{
     font-size: 4rem;
     margin: 0;
