@@ -241,10 +241,7 @@ p{
     background-position: center;
     max-width: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
 }
 
 .category-title{
