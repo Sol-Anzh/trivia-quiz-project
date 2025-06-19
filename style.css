@@ -257,8 +257,7 @@ p{
     max-width: 90%;
     overflow-wrap: break-word;
     padding: 0;
-    margin: -4;
-    z-index: -1;
+    margin: 0;
 }
 
 .category-title h1{
@@ -267,7 +266,7 @@ p{
     text-align: center;
     font-size: 7vw;
     color: rgba(255, 255, 255, 0.774);
-    padding: 0.3rem;
+    padding: 0;
 }
 
 .category-body{
@@ -275,7 +274,7 @@ p{
     flex-direction: row-reverse;
     justify-content: center;
     margin: 0;
-    height:95.3vh;
+    height:95vh;
     right:1rem;
     overflow: hidden;
 }
@@ -318,7 +317,7 @@ p{
     box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.6);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    padding: 3rem 1rem;
+    padding: 1rem;
     margin: 0;
     height: 58%;
     width: 70%;
