@@ -512,6 +512,7 @@ p{
         
 .category-body{
     margin-top: -2rem;
+    margin-bottom: 0;
     width: 95%;
     height: 95vh;
     padding: 0;
