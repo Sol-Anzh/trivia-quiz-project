@@ -598,7 +598,7 @@ p{
     
 }
 
-/* -- SMALLER DEVICES -- */
+/* ------------------ SMALLER DEVICES ------------------ */
 
 @media (max-width: 576px){
 
@@ -688,7 +688,7 @@ p{
     font-size: 1.8vh;
 }
 
-#select-category{
+#select-category h1{
     font-size: 2rem;
     width: fit-content;
     max-width: 100%;
@@ -702,8 +702,7 @@ p{
 }
 
 .category{
-    width: fit-content;
-    max-width: 100%;
+    width: 100%;
     overflow-wrap: break-word;
 }
 
