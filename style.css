@@ -704,7 +704,7 @@ p{
 #categories {
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(3, 1fr); 
-    height: 70%;
+    height: 60vh;
 }
 
 .category{
