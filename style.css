@@ -690,9 +690,6 @@ p{
 
 #select-category h1{
     font-size: 2rem;
-    width: fit-content;
-    max-width: 100%;
-    overflow-wrap: break-word;
     color: red;
 }
 
@@ -701,12 +698,7 @@ p{
     grid-template-rows: repeat(3, 1fr); 
     height: 27vh;
 }
-
-.category{
-    width: 100%;
-    overflow-wrap: break-word;
-}
-
+    
  .category-title{
      padding: 0;
      margin: 0;
