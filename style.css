@@ -249,7 +249,7 @@ p{
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: 1fr auto;
+    grid-template-columns: auto auto;
     gap: 0;
 }
 
