@@ -735,7 +735,6 @@ p{
     overflow-wrap: break-word;
     padding: 0;
     margin: 0;
-border: solid 2px orange;
 }
 
 .category-title h1{
@@ -753,7 +752,6 @@ border: solid 2px orange;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-border: solid 2px white;
 }
 
 .trivia-container{
