@@ -688,14 +688,28 @@ p{
     font-size: 1.8vh;
 }
 
+#category-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
 #select-category h1{
     font-size: 2rem;
+    margin: 0 0 1rem 0; 
 }
 
 #categories {
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(3, 1fr); 
     height: 55vh;
+    margin-top: 0;
+    gap: 0.5rem;
+    height: auto; 
 }
 
 .category{
