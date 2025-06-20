@@ -689,7 +689,7 @@ p{
 }
 
 #select-category{
-    font-size: 3.5rem;
+    font-size: 2rem;
     width: fit-content;
     max-width: 100%;
     overflow-wrap: break-word;
@@ -698,7 +698,7 @@ p{
 #categories {
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(3, 1fr); 
-    height: 55vh;
+    height: 27vh;
 }
 
 .category{
