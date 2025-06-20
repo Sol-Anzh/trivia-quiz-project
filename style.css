@@ -792,7 +792,10 @@ p{
 
 .bottom-buttons{
     width: 100%;
-    font-size: 3.3vw;
+}
+
+.return, .next-button{
+    font-size: 2.3vh;
 }
     
 .choices-container{
