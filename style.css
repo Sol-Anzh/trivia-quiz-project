@@ -690,8 +690,8 @@ p{
 }
 
 #select-category{
-   width: 100vw;
-   max-width: 100%;
+   width: 100%;
+   max-width: 100vw;
    text-align: center;
 }
 
@@ -703,6 +703,10 @@ p{
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(3, 1fr); 
     height: 27vh;
+}
+
+.category{
+    padding: 1rem auto;
 }
     
  .category-title{
