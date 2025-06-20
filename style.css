@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
-    margin-top: 0.8rem;;
+    margin-top: 0.8rem;
     margin-left: 5rem;
     padding: 3.8rem 7rem;
     height: 20%;
@@ -688,14 +688,23 @@ p{
     font-size: 1.8vh;
 }
 
-#select-category h1{
+#select-category{
     font-size: 3.5rem;
+    width: fit-content;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 #categories {
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(3, 1fr); 
     height: 55vh;
+}
+
+.category{
+    width: fit-content;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
  .category-title{
