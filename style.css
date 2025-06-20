@@ -693,6 +693,7 @@ p{
     width: fit-content;
     max-width: 100%;
     overflow-wrap: break-word;
+    color: red;
 }
 
 #categories {
