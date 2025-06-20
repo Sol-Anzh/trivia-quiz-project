@@ -767,6 +767,8 @@ p{
     margin-bottom: 0.1rem;
     margin-top: 0.1rem;
     min-width: 200px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .trivia-card{
@@ -788,7 +790,7 @@ p{
 }
 
 .bottom-buttons{
-    min-width: 170px;
+    width: 100%;
     font-size: 2.7vw;
 }
     
