@@ -689,6 +689,12 @@ p{
     font-size: 1.8vh;
 }
 
+#select-category{
+   width: fit-content;
+   max-width: 100%;
+   text-align: center;
+}
+
 #select-category h1{
     font-size: 2rem;
     width: fit-content;
