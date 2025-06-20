@@ -511,7 +511,9 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     gap: 0;
 }
 
@@ -580,7 +582,7 @@ p{
 }
 
 .bottom-buttons{
-    min-width: 350px;
+    width: 100%;
 }
 
 .entert-title{
