@@ -691,7 +691,8 @@ p{
 
 #select-category h1{
     font-size: 2rem;
-    color: red;
+    width: fit-content;
+    max-width: 100%;
 }
 
 #categories {
@@ -703,8 +704,7 @@ p{
  .category-title{
      padding: 0;
      margin: 0;
-     width: fit-content;
-     max-width: 95%;
+     width: 100%;
      overflow-wrap: break-word;
  }   
 .category-bg{
