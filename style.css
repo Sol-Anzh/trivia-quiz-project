@@ -742,7 +742,7 @@ p{
 }
         
 .category-body{
-    margin-top: -2rem;
+    margin-top: 0.5vh;
     margin-bottom: -3rem;
     width: 100%;
     height: 90vh;
